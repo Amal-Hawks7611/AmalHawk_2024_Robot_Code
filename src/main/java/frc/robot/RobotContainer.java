@@ -71,7 +71,7 @@ public class RobotContainer {
       () -> -driverPs5.getLeftY(),
       () -> -driverPs5.getLeftX())
       .withControllerRotationAxis(() -> driverPs5.getRawAxis(
-          2))
+          4))
       .deadband(OperatorConstants.DEADBAND)
       .scaleTranslation(0.8)
       .allianceRelativeControl(true);
